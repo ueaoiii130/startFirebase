@@ -7,6 +7,8 @@
 //
 
 import UIKit
+// Firebase導入
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Firebase導入
+        FirebaseApp.configure()
         // Override point for customization after application launch.
         return true
     }
